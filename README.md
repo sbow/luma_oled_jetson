@@ -6,5 +6,6 @@ Note: the above link also gives the board-level addressing of the GPIO pins - cr
   
 I use Jetson TX1 J21 Header pins as follows:
 |1|6|27|28|29|
+|---------|--------|--------|---------|------------------|
 |3.3v power|ground|ID_SDA|ID_SCL|GPIO for reset|
 
