@@ -9,4 +9,6 @@ I use Jetson TX1 J21 Header pins as follows:
 |1|6|27|28|29|
 |---------|--------|--------|---------|------------------|
 |3.3v power|ground|ID_SDA|ID_SCL|GPIO for reset via 2k resistor|
-
+  
+Note:  
+The 2k resistor & reset pin are critical if you're using the Adafruit SSD1306 based 128x64 pixel monochrome display. If you don't use the reset pin, and pull it High Low High, you will get "snow"/garbage instead of the image you want.
