@@ -37,9 +37,9 @@ sleep 1
 echo out > direction && echo 0 > value
 sleep 1
 echo out > direction && echo 1 > value
-cd /home/nvidia/git/luma_oled_jetson 
+cd /home/shaun/git/luma_oled_jetson 
 cmd="python mowbot.py --i2c-address 0x3d"
 nohup $cmd &
 #disown -h $cmd &
-cd /home/nvidia
+cd /home/shaun
 
